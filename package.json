@@ -18,8 +18,8 @@
     "require": "./lib/index.js"
   },
   "files": [
-    "./lib",
-    "./es"
+    "lib",
+    "es"
   ],
   "devDependencies": {
     "@rspress/shared": "^1.21.0",
