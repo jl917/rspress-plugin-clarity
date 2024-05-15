@@ -18,8 +18,8 @@
     "require": "./lib/index.js"
   },
   "files": [
-    "dist",
-    "./tscofnig.json"
+    "./lib",
+    "./es"
   ],
   "devDependencies": {
     "@rspress/shared": "^1.21.0",
