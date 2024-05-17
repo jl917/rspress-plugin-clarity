@@ -1,3 +1,10 @@
+# [1.0.0-next.4](https://github.com/jl917/rspress-plugin-clarity/compare/v1.0.0-next.3...v1.0.0-next.4) (2024-05-17)
+
+
+### Bug Fixes
+
+* type match error ([e57dbf3](https://github.com/jl917/rspress-plugin-clarity/commit/e57dbf36ea9ad41bc434bbb82f47e2da58f5d02e))
+
 # [1.0.0-next.3](https://github.com/jl917/rspress-plugin-clarity/compare/v1.0.0-next.2...v1.0.0-next.3) (2024-05-15)
 
 
