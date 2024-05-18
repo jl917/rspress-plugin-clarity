@@ -1,0 +1,139 @@
+repo_name: jl917/rspress-plugin-clarity
+report_id: 69c2baf59fab67f3cf22cf6908579dab
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-18T12:26:56+00:00'
+requested_by: semantic-release-bot
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity
+  detection_source: Repo Metadata
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-17 22:46:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/.github/workflows/develop-auto-pr.yml
+  detection_source: ".github/workflows/develop-auto-pr.yml"
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
+  vulnerabilities:
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in semantic-release
+    cve_id: CVE-2022-31051
+    cve_url: https://github.com/advisories/GHSA-x2pg-mjhr-2m5x
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 19.0.3
+- name: "@semantic-release/changelog"
+  description: Semantic-release plugin to create or update a changelog file
+  package_url: https://www.npmjs.com/@semantic-release/changelog
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16473/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
+- name: "@semantic-release/git"
+  description: Semantic-release plugin to commit release assets to the project's git
+    repository
+  package_url: https://www.npmjs.com/@semantic-release/git
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16388/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
+  detection_source_url: https://github.com/jl917/rspress-plugin-clarity/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: jl917
+  last_updated_on: 2024-05-15 00:33:41.000000000 Z
